@@ -1,0 +1,107 @@
+1. Python
+
+OOP-based framework architecture
+Classes, inheritance, abstraction
+Exception handling
+Logging
+Configuration management
+Utilities/helpers
+
+2. PyTest
+
+Fixtures
+Parameterization
+Markers
+Hooks
+Assertions
+Parallel execution using pytest-xdist
+HTML/Allure reports
+
+3. API Testing
+Automate APIs for:
+
+User registration/login
+Authentication/token generation
+Product search
+Add/update/delete cart
+Order creation
+Order status
+
+You can use requests or httpx.
+
+4. Selenium / Playwright
+
+Automate UI scenarios such as:
+
+Login
+ ↓
+Search product
+ ↓
+Select product
+ ↓
+Add to cart
+ ↓
+Checkout
+ ↓
+Place order
+
+You can also demonstrate:
+
+Page Object Model
+Explicit waits
+Dynamic elements
+Screenshots on failure
+Cross-browser testing
+
+5. Git
+
+Create a proper Git repository with:
+
+main
+ └── develop
+      ├── feature/api-tests
+      ├── feature/ui-tests
+      └── feature/reporting
+
+Demonstrate meaningful commits and pull requests.
+
+6. CI/CD
+
+Set up GitHub Actions or Jenkins:
+
+Git Push
+   ↓
+CI Pipeline
+   ↓
+Install dependencies
+   ↓
+Run API tests
+   ↓
+Run UI tests
+   ↓
+Generate report
+   ↓
+Publish test results
+
+7. Docker
+
+Create a Dockerfile so someone can run your framework without manually configuring Python/dependencies.
+
+For example:
+
+docker build -t automation-framework .
+docker run automation-framework
+
+8. Linux
+
+Run the framework on a Linux environment/server:
+
+git clone <repository>
+cd automation-framework
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+pytest

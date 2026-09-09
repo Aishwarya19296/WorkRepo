@@ -1,0 +1,39 @@
+automation-framework/
+│
+├── tests/
+│   ├── api/
+│   │   ├── test_login.py
+│   │   ├── test_products.py
+│   │   └── test_orders.py
+│   │
+│   └── ui/
+│       ├── test_login.py
+│       ├── test_product_search.py
+│       └── test_checkout.py
+│
+├── pages/
+│   ├── login_page.py
+│   ├── product_page.py
+│   └── checkout_page.py
+│
+├── api/
+│   ├── auth_api.py
+│   ├── product_api.py
+│   └── order_api.py
+│
+├── utils/
+│   ├── config.py
+│   ├── logger.py
+│   └── test_data.py
+│
+├── config/
+│   ├── dev.yaml
+│   └── qa.yaml
+│
+├── reports/
+│
+├── Dockerfile
+├── requirements.txt
+├── pytest.ini
+├── conftest.py
+└── README.md
